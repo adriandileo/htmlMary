@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kreon:wght@300&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Kreon", serif;
+}
+
+@media (min-width: 769px) {
+  /* pantalla */
+  /* generico */
+  header {
+    background: linear-gradient(rgb(190, 73, 73), rgb(85, 60, 104), rgb(163, 145, 145));
+  }
+  header nav {
+    position: relative;
+  }
+  header nav .logo {
+    width: 150px;
+  }
+  header nav ul li {
+    display: inline-block;
+    margin-inline: 40px;
+    text-align: center;
+  }
+  header nav ul li a {
+    font-size: x-large;
+    background-color: black;
+    text-decoration: none;
+    font-family: "Dancing Script", cursive;
+  }
+  header nav ul li .menu {
+    color: rgb(212, 221, 230);
+  }
+  main {
+    background: url(../imagenes/rutaJardinBackground.jpeg) no-repeat start/50% fixed;
+  }
+  #floatingbox {
+    color: rgb(53, 15, 63);
+    font-size: 25px;
+    background: rgb(255, 255, 255);
+    padding: 2px;
+    bottom: 25px;
+    right: 20px;
+    text-decoration: none;
+    z-index: 100;
+    position: fixed;
+    border-radius: 8px;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+  }
+  /* index */
+  .d-block1 {
+    width: 500px;
+    height: 400px;
+    border: 2px solid black;
+  }
+  .texto1, .texto2 {
+    background-color: rgba(255, 255, 255, 0.678);
+    font-size: xx-large;
+    font-weight: 900;
+  }
+  .auto, .auto1 {
+    border: solid 4px black;
+  }
+  #grids {
+    display: grid;
+    grid-template-areas: "imagen" "imagen2" "texto2";
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 350px);
+    grid-auto-flow: row;
+    align-items: center;
+  }
+  /* areas */
+  .img1 {
+    grid-area: imagen;
+    height: 350px;
+  }
+  .img2 {
+    grid-area: imagen2;
+    height: 350px;
+  }
+  .auto, .auto1 {
+    width: 492px;
+    height: 330px;
+  }
+  /* nuestra historia */
+  #portada {
+    position: relative;
+    text-align: center;
+  }
+  .descripcion1 {
+    font-size: x-large;
+    float: inline-end;
+    align-content: space-around;
+    background-color: rgba(255, 255, 255, 0.678);
+  }
+  .carousel {
+    width: 500px;
+    margin-left: 375px;
+  }
+  .d-block {
+    border: solid 6px black;
+  }
+  /* metodos de extraccion */
+  main {
+    background: url(../imagenes/fondo.jpeg) no-repeat fixed;
+  }
+  .descripcion2 {
+    font-size: x-large;
+    font-weight: 900;
+    background-color: rgba(255, 255, 255, 0.678);
+    text-align: center;
+    align-content: space-around;
+    width: 500px;
+    height: auto;
+    margin-left: 350px;
+  }
+  #contenedorMetodos {
+    display: flex;
+    display: inline-flex;
+    margin-left: 180px;
+  }
+  .metodos {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+  }
+  /* panaderia y cocina */
+  .dulces {
+    border-style: solid;
+    border-color: indigo;
+    padding: 30px;
+  }
+  .descripcion {
+    font-size: x-large;
+    float: inline-end;
+    align-content: space-around;
+    background-color: rgba(255, 255, 255, 0.678);
+  }
+  .encabezado {
+    font-size: xx-large;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: 900;
+  }
+  .titulo {
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-bottom: 50px;
+    border-style: solid;
+    border-color: indigo;
+    text-align: center;
+  }
+  .sweet {
+    width: 300px;
+    height: auto;
+    border: solid 4px black;
+  }
+  /* contacto */
+  #form {
+    text-align: center;
+  }
+  .boton1, .boton3, .boton2 {
+    width: 150px;
+  }
+  /* footer */
+  footer {
+    border: solid indigo;
+    width: auto;
+    height: 100px;
+  }
+  .redes {
+    width: auto;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+  }
+  .box {
+    width: 50px;
+    height: 50px;
+  }
+  .box:hover {
+    transform: scale(2);
+  }
+  .box1, .box2 {
+    transition: all 3s;
+  }
+  footer {
+    background: linear-gradient(rgb(190, 73, 73), rgb(85, 60, 104), rgb(163, 145, 145));
+  }
+}/*# sourceMappingURL=scss.css.map */
